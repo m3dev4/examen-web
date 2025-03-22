@@ -1,69 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mes Projets - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mes projets</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="image-container">
-        
-    </div>
+  <body>
     <header>
-        <h1>mes projets</h1>
-        <nav>
-            <ul>
-                <li> <a href="index.html">accueil</a></li>
-                <li><a href="A propos.html">a propos</a></li>
-                <li><a href="projets.html">projets</a></li>
-                <li><a href="contacts.html">contacts</a></li>
-                <li><a href="videos.html">videos</a></li>
-            </ul>
-        </nav>
+      <h1>Mes Projets</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="A propos.html">À Propos</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+          <li><a href="videos.html">Vidéos</a></li>
+        </ul>
+      </nav>
     </header>
-    <section class="projets">
-        <div class="projets">
-            <h2>portfolio projet</h2>
-            <a href="image/WhatsApp Image 2025-03-21 at 16.59.51.jpeg" target="_blank"><img src="image/WhatsApp Image 2025-03-21 at 16.59.51.jpeg" alt="apercu du portfolio"
-                class="image-responsive"></a>
-            <p><strong>descriptions: </strong>ce projet est mon portfolio en ligne .Il me permet de presenter mes
-                competences;mes realisations
-                et de fournir mes coordonees aux recruteurs et collaborateurs potentiels.Il est concu avec une ,ise
-                en page moderne et responsive utilisant flexbox</p>
-            <p><strong>technologies :</strong>HTML5 pour la structure et CSS3 pour le style</p>
-            <p><strong>defis:</strong>rendre le site entierement responsive</p>
-            <a href="https://github.com/mon-projets" target="_blank" class="btn">voir le code</a>
+
+    <main class="projects-container">
+      <div class="project-card">
+        <h2>Portfolio Projet</h2>
+        <div class="project-image">
+          <a
+            href="image/WhatsApp Image 2025-03-21 at 16.59.51.jpeg"
+            target="_blank"
+          >
+            <img
+              src="image/WhatsApp Image 2025-03-21 at 16.59.51.jpeg"
+              alt="Aperçu du portfolio"
+              class="image-responsive"
+            />
+          </a>
         </div>
-        <div class="projets 2">
-            <h2>techEdu africa</h2>
-            <a href="image/WhatsApp Image 2025-03-21 at 15.20.20 (2) - Copie.jpeg" target="_blank"><img
-                    src="image/WhatsApp Image 2025-03-21 at 15.20.20 (2) - Copie.jpeg" alt="apercu du site techEdu"
-                    class="image-responsive"></a>
-            <p><strong>descriptions:</strong>un site web pour une entreprise fictive de formation en informatique.Il
-                comprend une page de accueil ,une page de formations,une page de temoignage et une page de contact avec
-                un formulaire</p>
-            <p><strong>technologies:</strong>HTML5 et CSS3</p>
-            <P><strong>defis:</strong>creer un formulaire interactif agreable</P>
-            <a href="https://github.com/mon-projets" target="_blank" class="btn">voir le code</a>
-
+        <div class="project-details">
+          <p>
+            <strong>Description : </strong>Ce projet est mon portfolio en ligne.
+            Il me permet de présenter mes compétences, mes réalisations et de
+            fournir mes coordonnées aux recruteurs et collaborateurs potentiels.
+            Il est conçu avec une mise en page moderne et responsive utilisant
+            flexbox.
+          </p>
+          <p>
+            <strong>Technologies : </strong>HTML5 pour la structure et CSS3 pour
+            le style
+          </p>
+          <p><strong>Défis : </strong>Rendre le site entièrement responsive</p>
+          <a href="https://github.com/mon-projets" target="_blank" class="btn"
+            >Voir le code</a
+          >
         </div>
-        <div class="projets 3">
-            <h3>calculatrice web</h3>
-            <img src="image/WhatsApp Image 2025-03-21 at 15.20.20 (1) - Copie.jpeg" alt="apercu de la calculatrice"
-                class="image-responsive">
-            <p><strong>descriptions:</strong>une calculatrice en ligne permettant d'effectuer des operations de bases
-                comme la soustrations ,la multiplications,l'addition et la division</p>
-                <p><strong>technoliogie:</strong>HTML5 et CSS3</p>
-                <a href="ttps://github.com/mon-projets" target="_blank" class="btn" >voir le code</a>
+      </div>
 
-
+      <div class="project-card">
+        <h2>TechEdu Africa</h2>
+        <div class="project-image">
+          <a
+            href="image/WhatsApp Image 2025-03-21 at 15.20.20 (2) - Copie.jpeg"
+            target="_blank"
+          >
+            <img
+              src="image/WhatsApp Image 2025-03-21 at 15.20.20 (2) - Copie.jpeg"
+              alt="Aperçu du site TechEdu"
+              class="image-responsive"
+            />
+          </a>
         </div>
+        <div class="project-details">
+          <p>
+            <strong>Description : </strong>Un site web pour une entreprise
+            fictive de formation en informatique. Il comprend une page
+            d'accueil, une page de formations, une page de témoignages et une
+            page de contact avec un formulaire.
+          </p>
+          <p><strong>Technologies : </strong>HTML5 et CSS3</p>
+          <p>
+            <strong>Défis : </strong>Créer un formulaire interactif agréable
+          </p>
+          <a href="https://github.com/mon-projets" target="_blank" class="btn"
+            >Voir le code</a
+          >
+        </div>
+      </div>
 
-    </section>
+      <div class="project-card">
+        <h2>Calculatrice Web</h2>
+        <div class="project-image">
+          <img
+            src="image/WhatsApp Image 2025-03-21 at 15.20.20 (1) - Copie.jpeg"
+            alt="Aperçu de la calculatrice"
+            class="image-responsive"
+          />
+        </div>
+        <div class="project-details">
+          <p>
+            <strong>Description : </strong>Une calculatrice en ligne permettant
+            d'effectuer des opérations de base comme la soustraction, la
+            multiplication, l'addition et la division.
+          </p>
+          <p><strong>Technologies : </strong>HTML5 et CSS3</p>
+          <a href="https://github.com/mon-projets" target="_blank" class="btn"
+            >Voir le code</a
+          >
+        </div>
+      </div>
+    </main>
 
-</body>
-
+    <footer>
+      <p>&copy; 2025 Adja Ndew Diouf. Tous droits réservés.</p>
+    </footer>
+  </body>
 </html>
